@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cspy-99/currency-converter-react.git/static/css/main.dfae266a.css",
+    "main.js": "/cspy-99/currency-converter-react.git/static/js/main.1c0c164a.js",
+    "static/js/592.c467de5e.chunk.js": "/cspy-99/currency-converter-react.git/static/js/592.c467de5e.chunk.js",
+    "static/media/Money.png": "/cspy-99/currency-converter-react.git/static/media/Money.2d93934d4526d0566729.png",
+    "index.html": "/cspy-99/currency-converter-react.git/index.html",
+    "main.dfae266a.css.map": "/cspy-99/currency-converter-react.git/static/css/main.dfae266a.css.map",
+    "main.1c0c164a.js.map": "/cspy-99/currency-converter-react.git/static/js/main.1c0c164a.js.map",
+    "592.c467de5e.chunk.js.map": "/cspy-99/currency-converter-react.git/static/js/592.c467de5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfae266a.css",
+    "static/js/main.1c0c164a.js"
+  ]
+}
