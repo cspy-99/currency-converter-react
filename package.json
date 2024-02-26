@@ -2,7 +2,7 @@
   "name": "currency-converter-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/cspy-99/currency-converter-react.git",
+  "homepage": "https://cspy-99.github.io/todos-list-react/currency-converter-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
