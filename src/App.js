@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from './Form'
+import Controls from './Controls'
+import Request from './Request'
+import Interactive from './Interactive'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <body className="form__body">
+      <div className="form">
+        <form className="form  js-form">
+          <fieldset className="form__fieldset">
+            <legend className="form__legend">Przelicz Walutę</legend>
+       <Controls/>
+            <p>
+              <label>
+                <span className="controls__labelText">Podaj ilość w PLN:</span>
+                <input
+                  type="number"
+                  className="js-amount controls__field"
+                  step="0.01"
+                  required
+                />
+              </label>
+            </p>
+           <Interactive/>
+          </fieldset>
+        </form>
+      </div>
+    </body>
+  )
 }
 
-export default App;
+export default App

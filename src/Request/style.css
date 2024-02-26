@@ -1,0 +1,17 @@
+.interactive__button {
+    width: 100%;
+    border-color: #C6E2FF;
+    background-color: hsl(211, 100%, 90%);
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.interactive__button:hover {
+    background-color: hsl(211, 100%, 88%);
+}
+
+.interactive__button:active {
+    background-color: hsl(211, 100%, 86%);
+}

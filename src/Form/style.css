@@ -1,0 +1,54 @@
+.form {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 20px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.form__body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-image: url("/public/images/Money.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.form__fieldset {
+    border: 2px solid #C6E2FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form__legend {
+    background-color: #C6E2FF;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form__result {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
